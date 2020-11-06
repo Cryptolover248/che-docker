@@ -28,7 +28,7 @@ RUN apt-get update
 
 # which is used by novnc to find websockify
  RUN apt-get update && \
-    DEBIAN_FRONTEND=noninteractive apt-get -qq install -y tigervnc-standalone-server supervisor wget openjdk-11-jdk novnc fluxbox libsecret-1-0 git-core gnupg flex bison build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z1-dev libgl1-mesa-dev libxml2-utils xsltproc unzip fontconfig
+    DEBIAN_FRONTEND=noninteractive apt-get -qq install -y tigervnc-standalone-server supervisor wget openjdk-11-jdk novnc fluxbox libsecret-1-0 gnome-keyring git-core gnupg flex bison build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z1-dev libgl1-mesa-dev libxml2-utils xsltproc unzip fontconfig
 
 RUN mkdir /${PRODUCT_NAME}-${PRODUCT_VERSION} && \
     case ${PRODUCT_NAME} in \
