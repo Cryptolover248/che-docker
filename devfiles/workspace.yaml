@@ -2,6 +2,6 @@ metadata:
   name: che-ideaic
 components:
   - type: cheEditor
-    reference: 'https://raw.githubusercontent.com/che-incubator/che-editor-intellij-community/master/devfiles/meta.yaml'
+    reference: 'https://raw.githubusercontent.com/Cryptolover248/che-docker/main/devfiles/meta.yaml'
     alias: ideaic-editor
 apiVersion: 1.0.0
