@@ -1,6 +1,6 @@
 apiVersion: v2
-publisher: eclipse
-name: ideaIC-NOVNC
+publisher: cryptolover248
+name: docker-intellij
 version: 2020.2.3
 type: Che Editor
 displayName:  IntelliJ IDEA Community Edition
